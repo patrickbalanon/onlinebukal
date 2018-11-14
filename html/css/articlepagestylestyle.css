@@ -1,0 +1,122 @@
+body {
+	font-family: "Tahoma";
+}
+a{
+	text-decoration: none
+}
+
+.main-header {
+	margin-top: 0;
+	text-align: center;
+	font-family: "Tahoma";
+	
+}
+.navbar {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	list-style: none;
+	padding: 0;
+}
+.button:hover {
+	background: #f4f4f4;
+}
+.button {
+	background: #fff;
+	color: black;
+	text-align: center;
+	padding: 10px 0;
+}
+/*MAIN MENU SECTION*/
+#main-menu{
+	font-family:Tahoma;
+	font-size: 30px;
+	margin:0;
+	padding:0;
+	text-align:center;
+	list-style:none;
+	display:grid;
+	grid-gap:10px;
+	grid-template-columns: repeat(4,1fr);
+}
+
+.news {
+	padding: 8px;
+	background: black;
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+/*ARTICLE SECTION*/
+
+
+
+.articles{
+	margin-bottom: 20px;
+	display: grid;
+	grid-gap: 15px;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+
+
+/*FIRST-ARTICLE*/
+.first-article {
+	padding: 20px;
+	background: url(../images/Kinang.png);
+	color: white;
+}
+
+
+.first-article p{
+	font-size: 20px;
+}
+
+/*SECOND-ARTICLE*/
+.second-article {
+	padding: 20px;
+	background: url(../images/bayan.png);
+	color:white;
+}
+
+
+.second-article p{
+	font-size: 20px;
+}
+
+/*THIRD-ARTICLE*/
+.third-article{
+	padding: 20px;
+	background: url(../images/estudyante.png);
+	color: white;
+}
+
+
+
+.third-article p{
+
+	font-size: 20px;
+}
+/*FOURTH-ARTICLE*/
+
+.fourth-article{
+	padding:20px;
+	background: url(../images/journ.png);
+	color: white;
+}
+
+
+.fourth-article p{
+
+	font-size: 20px;
+}
+
+
+/* FOOTER SECTION*/
+.footer {
+	height: 20px;
+
+	
+}
+

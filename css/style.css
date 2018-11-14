@@ -1,0 +1,102 @@
+body {
+	background: #f4f4f4;
+	font-family: "Tahoma";
+}
+#banner {
+	display: grid;
+	background: black;
+
+}
+.main-header {
+	margin-top: 0;
+	text-align: center;
+	font-family: "Tahoma";
+	
+}
+.navbar {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	list-style: none;
+	height: 25px;
+	padding: 0;
+}
+.button:hover,
+.button:focus {
+	background: black;
+	color: white;
+}
+.button {
+	background: #f4f4f4;
+	color: black;
+	text-align: center;
+	padding: 10px 0;
+	transition: all .2s ease-out;
+}
+
+
+
+h5 {
+	text-align; right;
+}
+
+a {
+	text-decoration: none;
+	
+}
+
+.head {
+	padding: 2px;
+	margin-top: 1px;
+	
+	
+}
+
+.head2 {
+	width: 825px;
+	height: 350px;
+	background: #ececec;
+	float: left;
+	padding: 5px;
+}
+
+
+.right {
+	width: 480px;
+	height: 620px;
+	background: #bcbcbc;
+	float: right;
+	padding: 5px;
+	
+	
+}
+
+.head3 {
+	margin-top: 5px;
+	width: 825px;
+	height: 254px;
+	background: #ececec;
+	float: left;
+	padding: 5px;
+	
+}
+
+
+.footer {
+	height: 20px;
+	float: right;
+	
+}
+.articleleft {
+	display: grid;
+	grid-template-columns: .35fr 1fr;
+	padding: 5px;
+}
+.insideleftfirst {
+	padding: 0;
+	color: yellow;
+}
+.insideleftsecond {
+	padding: 0px 5px;
+	color:black;
+}
+
